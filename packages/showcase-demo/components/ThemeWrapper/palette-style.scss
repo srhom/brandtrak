@@ -1,0 +1,230 @@
+.drawer {
+  :deep(.v-navigation-drawer) {
+    z-index: 1100 !important;
+    width: 100%;
+    height: 100% !important;
+    top: 0 !important;
+    @include use-theme(background, rgba(255, 255, 255, 0.6), rgba(66, 66, 66, 0.6));
+    backdrop-filter: saturate(180%) blur(20px)
+  }
+}
+
+.appbar {
+  top: 0 !important;
+  :deep(.v-toolbar__content) {
+    justify-content: center;
+  }
+}
+
+.tabs {
+  :deep(.v-icon) {
+    margin-right: $spacing1;
+  }
+}
+
+.tab-label {
+  font-weight: bold
+}
+
+.btn {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 10px;
+  top: 32%;
+  z-index: 9999;
+  border-radius: 8px;
+  @include shadow4;
+  padding: 4px;
+  border: 1px solid;
+  border-color: $palette-primary-main;
+  @include use-theme(background, rgba(255, 255, 255, 0.6), rgba(66, 66, 66, 0.6));
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: saturate(180%) blur(20px);
+  @include breakpoints-down(xs) {
+    top: 45%
+  }
+  &.active {
+    right: 614px;
+    border: none
+  }
+  :deep(.v-icon) {
+    font-size: 32px;
+    @include palette-text-secondary;
+    @include breakpoints-down(xs) {
+      font-size: 18px;
+    }
+  }
+  button {
+    padding: 12px;
+    width: 56px;
+    height: 56px;
+    @include breakpoints-down(xs) {
+      padding: 8px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.paper {
+  padding: $spacing2;
+  border-radius: 10px !important;
+}
+
+.opt-wrap {
+  width: 600px;
+  overflow: hidden;
+  :deep(.v-window-item) {
+    background: none;
+    margin: 0 24px;
+  }
+  > div {
+    overflow: auto;
+    height: 100%;
+    padding-top: $spacing10;
+  }
+  header {
+    @include breakpoints-down(xs) {
+      flex-direction: row
+    }
+  }
+  @include breakpoints-down(xs) {
+    width: 100%
+  }
+}
+
+.wrapper {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.theme-switched {
+  margin-bottom: $spacing3;
+  h6 {
+    margin-bottom: $spacing1;
+  }
+  label {
+    line-height: 40px
+  }
+}
+
+.swatch {
+  height: auto !important;
+  width: auto !important;
+  min-width: auto !important;
+  position: relative;
+  text-align: center;
+  padding: $spacing3 !important;
+  border-radius: 10px;
+  &.active {
+    box-shadow: 0 0 0 2px $palette-primary-main
+  }
+}
+
+.primary-swatch {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50%
+}
+
+.secondary-swatch {
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  left: 60%;
+  top: 60%
+}
+
+.theme-color {
+  h6 {
+    margin-bottom: $spacing1
+  }
+}
+
+.explore {
+  margin: spacing(4, 0);
+  font-family: 'Arial';
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+      display: inline-block;
+      float: left;
+      text-align: center;
+      margin-bottom: $spacing4;
+      width: 33%;
+      padding: 0 8px;
+      @include breakpoints-down(xs) {
+        width: 100%
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: $font-medium;
+        color: $light-text-primary;
+        transition: all 0.3s ease;
+        top: 0;
+        position: relative;
+        &:hover {
+          color: $light-text-primary;
+          top: -5px;
+        }
+        figure {
+          margin: spacing(0, 0, 1, 0);
+          overflow: hidden;
+          border-radius: 6px;
+          @include shadow4;
+          height: 200px;
+          width: 170px;
+          @include breakpoints-down(xs) {
+            width: 190px;
+            height: 242px;
+          }
+        }
+        img {
+          width: 100%
+        }
+      }
+    }
+  }
+}
+
+margin-bottom {
+  @include breakpoints-down(xs) {
+    margin-bottom: $spacing3
+  }
+}
+
+.overline {
+  font-size: 14px !important;
+  letter-spacing: 1px !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.switch-toggle {
+  display: inline-block;
+  margin: spacing(-1, 2);
+  flex: 0;
+  :deep(.v-switch__thumb) {
+    background-color: $palette-secondary-main
+  }
+
+  :deep(.v-switch__track) {
+    background-color: $palette-secondary-main
+  }
+}
+
+.caption {
+  text-transform: none
+}
+
+.flex {
+  display: flex
+}
