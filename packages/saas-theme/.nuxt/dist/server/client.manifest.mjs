@@ -1,0 +1,1 @@
+export { default } from "file:///Users/strhom/Local%20Sites/brandtrak/packages/saas-theme/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
