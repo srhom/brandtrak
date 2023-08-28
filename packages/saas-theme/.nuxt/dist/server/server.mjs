@@ -249,7 +249,7 @@ function createHead(initHeadObject, options) {
 }
 version$1.startsWith("2.");
 const appPageTransition = { "name": "page", "mode": "out-in" };
-const appHead = { "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "name": "description", "content": "Veluxi Saas - Vue Single Landing Page Template" }, { "name": "msapplication-TileColor", "content": "#FFFFFF" }, { "name": "msapplication-TileImage", "content": "/favicons/ms-icon-144x144.png" }, { "name": "theme-color", "content": "#2196f3" }, { "property": "author", "content": "luxi" }, { "property": "og:site_name", "content": "luxi.ux-maestro.com" }, { "property": "og:locale", "content": "en_US" }, { "property": "og:type", "content": "website" }, { "property": "twitter:site", "content": "luxi.ux-maestro.com" }, { "property": "twitter:domain", "content": "luxi.ux-maestro.com" }, { "property": "twitter:creator", "content": "luxi" }, { "property": "twitter:card", "content": "summary" }, { "property": "twitter:image:src", "content": "/images/logo.png" }, { "property": "og:url", "content": "veluxi.ux-maestro.com/saas" }, { "property": "og:title", "content": "Software" }, { "property": "og:description", "content": "Veluxi Saas - Vue Single Landing Page Template" }, { "name": "twitter:site", "content": "veluxi.ux-maestro.com/saas" }, { "name": "twitter:card", "content": "summary_large_image" }, { "name": "twitter:image", "content": "/images/saas-logo.png" }, { "property": "og:image", "content": "/images/saas-logo.png" }, { "property": "og:image:width", "content": "1200" }, { "property": "og:image:height", "content": "630" }], "link": [{ "rel": "shortcut icon", "href": "/favicons/favicon.ico" }, { "rel": "apple-touch-icon", "sizes": "57x57", "href": "/favicons/apple-icon-57x57.png" }, { "rel": "apple-touch-icon", "sizes": "60x60", "href": "/favicons/apple-icon-60x60.png" }, { "rel": "apple-touch-icon", "sizes": "72x72", "href": "/favicons/apple-icon-72x72.png" }, { "rel": "apple-touch-icon", "sizes": "76x76", "href": "/favicons/apple-icon-76x76.png" }, { "rel": "apple-touch-icon", "sizes": "114x114", "href": "/favicons/apple-icon-114x114.png" }, { "rel": "apple-touch-icon", "sizes": "120x120", "href": "/favicons/apple-icon-120x120.png" }, { "rel": "apple-touch-icon", "sizes": "144x144", "href": "/favicons/apple-icon-144x144.png" }, { "rel": "apple-touch-icon", "sizes": "152x152", "href": "/favicons/apple-icon-152x152.png" }, { "rel": "apple-touch-icon", "sizes": "180x180", "href": "/favicons/apple-icon-180x180.png" }, { "rel": "icon", "type": "image/png", "sizes": "192x192", "href": "/favicons/android-icon-192x192.png" }, { "rel": "icon", "type": "image/png", "sizes": "32x32", "href": "/favicons/favicon-32x32.png" }, { "rel": "icon", "type": "image/png", "sizes": "96x96", "href": "/favicons/favicon-96x96.png" }, { "rel": "icon", "type": "image/png", "sizes": "16x16", "href": "/favicons/favicon-16x16.png" }, { "rel": "manifest", "href": "/favicons/manifest.json" }, { "rel": "stylesheet", "href": "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" }, { "rel": "stylesheet", "href": "https://fonts.googleapis.com/icon?family=Material+Icons" }, { "rel": "stylesheet", "href": "https://unpkg.com/ionicons@3.0.0/dist/css/ionicons.min.css" }], "style": [], "script": [], "noscript": [], "title": "Software" };
+const appHead = { "meta": [{ "charset": "utf-8" }, { "name": "viewport", "content": "width=device-width, initial-scale=1" }, { "name": "description", "content": "Veluxi Saas - Vue Single Landing Page Template" }, { "name": "msapplication-TileColor", "content": "#FFFFFF" }, { "name": "msapplication-TileImage", "content": "/favicons/ms-icon-144x144.png" }, { "name": "theme-color", "content": "#9c27b0" }, { "property": "author", "content": "luxi" }, { "property": "og:site_name", "content": "luxi.ux-maestro.com" }, { "property": "og:locale", "content": "en_US" }, { "property": "og:type", "content": "website" }, { "property": "twitter:site", "content": "luxi.ux-maestro.com" }, { "property": "twitter:domain", "content": "luxi.ux-maestro.com" }, { "property": "twitter:creator", "content": "luxi" }, { "property": "twitter:card", "content": "summary" }, { "property": "twitter:image:src", "content": "/images/logo.png" }, { "property": "og:url", "content": "veluxi.ux-maestro.com/saas" }, { "property": "og:title", "content": "Software" }, { "property": "og:description", "content": "Veluxi Saas - Vue Single Landing Page Template" }, { "name": "twitter:site", "content": "veluxi.ux-maestro.com/saas" }, { "name": "twitter:card", "content": "summary_large_image" }, { "name": "twitter:image", "content": "/images/saas-logo.png" }, { "property": "og:image", "content": "/images/saas-logo.png" }, { "property": "og:image:width", "content": "1200" }, { "property": "og:image:height", "content": "630" }], "link": [{ "rel": "shortcut icon", "href": "/favicons/favicon.ico" }, { "rel": "apple-touch-icon", "sizes": "57x57", "href": "/favicons/apple-icon-57x57.png" }, { "rel": "apple-touch-icon", "sizes": "60x60", "href": "/favicons/apple-icon-60x60.png" }, { "rel": "apple-touch-icon", "sizes": "72x72", "href": "/favicons/apple-icon-72x72.png" }, { "rel": "apple-touch-icon", "sizes": "76x76", "href": "/favicons/apple-icon-76x76.png" }, { "rel": "apple-touch-icon", "sizes": "114x114", "href": "/favicons/apple-icon-114x114.png" }, { "rel": "apple-touch-icon", "sizes": "120x120", "href": "/favicons/apple-icon-120x120.png" }, { "rel": "apple-touch-icon", "sizes": "144x144", "href": "/favicons/apple-icon-144x144.png" }, { "rel": "apple-touch-icon", "sizes": "152x152", "href": "/favicons/apple-icon-152x152.png" }, { "rel": "apple-touch-icon", "sizes": "180x180", "href": "/favicons/apple-icon-180x180.png" }, { "rel": "icon", "type": "image/png", "sizes": "192x192", "href": "/favicons/android-icon-192x192.png" }, { "rel": "icon", "type": "image/png", "sizes": "32x32", "href": "/favicons/favicon-32x32.png" }, { "rel": "icon", "type": "image/png", "sizes": "96x96", "href": "/favicons/favicon-96x96.png" }, { "rel": "icon", "type": "image/png", "sizes": "16x16", "href": "/favicons/favicon-16x16.png" }, { "rel": "manifest", "href": "/favicons/manifest.json" }, { "rel": "stylesheet", "href": "https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" }, { "rel": "stylesheet", "href": "https://fonts.googleapis.com/icon?family=Material+Icons" }, { "rel": "stylesheet", "href": "https://unpkg.com/ionicons@3.0.0/dist/css/ionicons.min.css" }], "style": [], "script": [], "noscript": [], "title": "Software" };
 const appLayoutTransition = false;
 const appKeepalive = false;
 const vueuse_head_plugin_D7WGfuP1A0 = defineNuxtPlugin((nuxtApp) => {
@@ -21977,25 +21977,25 @@ const directives = /* @__PURE__ */ Object.freeze({
   Touch
 });
 const palette = {
-  oceanBlue: {
-    primary: colors.blue.base,
+  violeta: {
+    primary: colors.purple.base,
     // primary main
-    primarylight: colors.blue.lighten4,
+    primarylight: colors.purple.lighten4,
     // primary light
-    primarydark: colors.blue.darken4,
+    primarydark: colors.purple.darken3,
     // primary dark
-    secondary: colors.cyan.base,
+    secondary: colors.lightGreen.base,
     // secondary main
-    secondarylight: colors.cyan.lighten4,
+    secondarylight: colors.lightGreen.lighten4,
     // secondary light
-    secondarydark: colors.cyan.darken4,
+    secondarydark: colors.lightGreen.darken3,
     // secondary dark
-    anchor: colors.blue.base
+    anchor: colors.purple.base
     // link
   }
 };
 const theme = {
-  ...palette.oceanBlue
+  ...palette.violeta
 };
 const vuetify_8NhHJigKc1 = defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
