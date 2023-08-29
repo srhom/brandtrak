@@ -43,5 +43,5 @@ export const nuxtI18nOptionsDefault = Object({vueI18n: undefined,locales: [],def
 
 export const nuxtI18nInternalOptions = Object({__normalizedLocales: [Object({"code":"ar","iso":"ar-AR","name":"Arabic","file":"ar-AR.json","dir":"rtl","path":"/Users/strhom/Local Sites/brandtrak/packages/saas-theme/lang/ar-AR.json"}),Object({"code":"de","iso":"de-DE","name":"Deutch","file":"de-DE.json","dir":"ltr","path":"/Users/strhom/Local Sites/brandtrak/packages/saas-theme/lang/de-DE.json"}),Object({"code":"id","iso":"id-ID","name":"Bahasa Indonesia","file":"id-ID.json","dir":"ltr","path":"/Users/strhom/Local Sites/brandtrak/packages/saas-theme/lang/id-ID.json"}),Object({"code":"pt","iso":"pt-PT","name":"Portuguese","file":"pt-PT.json","dir":"ltr","path":"/Users/strhom/Local Sites/brandtrak/packages/saas-theme/lang/pt-PT.json"}),Object({"code":"zh","iso":"zh-ZH","name":"Chinese","file":"zh-ZH.json","dir":"ltr","path":"/Users/strhom/Local Sites/brandtrak/packages/saas-theme/lang/zh-ZH.json"}),Object({"code":"en","iso":"eng-US","name":"English","file":"en-US.json","dir":"ltr","path":"/Users/strhom/Local Sites/brandtrak/packages/saas-theme/lang/en-US.json"})]})
 export const NUXT_I18N_MODULE_ID = "@nuxtjs/i18n"
-export const isSSG = true
+export const isSSG = false
 export const isSSR = true

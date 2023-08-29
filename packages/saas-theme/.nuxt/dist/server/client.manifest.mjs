@@ -14,56 +14,56 @@ export default {
     "file": "Notification.b9f4d2c8.css",
     "src": "Notification.css"
   },
-  "_AuthFrame.32339c09.js": {
+  "_AuthFrame.99148728.js": {
     "resourceType": "script",
     "module": true,
     "css": [
       "AuthFrame.14120b11.css"
     ],
-    "file": "AuthFrame.32339c09.js",
+    "file": "AuthFrame.99148728.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_Hidden.02cb09e8.js",
-      "_deco-bg-right.6534d34b.js"
+      "_Hidden.dc8df408.js",
+      "_deco-bg-right.351d60c0.js"
     ]
   },
   "AuthFrame.14120b11.css": {
     "file": "AuthFrame.14120b11.css",
     "resourceType": "style"
   },
-  "_Footer.1c0ad6c2.js": {
+  "_Footer.c8d1bc93.js": {
     "resourceType": "script",
     "module": true,
     "css": [
       "Footer.a6f43480.css"
     ],
-    "file": "Footer.1c0ad6c2.js",
+    "file": "Footer.c8d1bc93.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_saas-logo.9615be47.js",
-      "_Hidden.02cb09e8.js",
-      "_uiTheme.284c7ad5.js"
+      "_saas-logo.468967af.js",
+      "_Hidden.dc8df408.js",
+      "_uiTheme.fab8b5eb.js"
     ]
   },
   "Footer.a6f43480.css": {
     "file": "Footer.a6f43480.css",
     "resourceType": "style"
   },
-  "_Hidden.02cb09e8.js": {
+  "_Hidden.dc8df408.js": {
     "resourceType": "script",
     "module": true,
-    "file": "Hidden.02cb09e8.js",
+    "file": "Hidden.dc8df408.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_Notification.7279e872.js": {
+  "_Notification.d622cf4b.js": {
     "resourceType": "script",
     "module": true,
     "css": [
       "Notification.b9f4d2c8.css"
     ],
-    "file": "Notification.7279e872.js",
+    "file": "Notification.d622cf4b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
@@ -72,30 +72,30 @@ export default {
     "file": "Notification.b9f4d2c8.css",
     "resourceType": "style"
   },
-  "_ThemeWrapper.ed4d17fd.js": {
+  "_ThemeWrapper.35cddb74.js": {
     "resourceType": "script",
     "module": true,
-    "file": "ThemeWrapper.ed4d17fd.js",
+    "file": "ThemeWrapper.35cddb74.js",
     "imports": [
-      "_uiTheme.284c7ad5.js",
+      "_uiTheme.fab8b5eb.js",
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_deco-bg-right.6534d34b.js": {
+  "_deco-bg-right.351d60c0.js": {
     "resourceType": "script",
     "module": true,
-    "file": "deco-bg-right.6534d34b.js",
+    "file": "deco-bg-right.351d60c0.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_saas-logo.9615be47.js": {
+  "_saas-logo.468967af.js": {
     "resourceType": "script",
     "module": true,
     "assets": [
       "saas-logo.d7ec5cf9.svg"
     ],
-    "file": "saas-logo.9615be47.js",
+    "file": "saas-logo.468967af.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
@@ -105,10 +105,10 @@ export default {
     "resourceType": "image",
     "mimeType": "image/svg+xml"
   },
-  "_uiTheme.284c7ad5.js": {
+  "_uiTheme.fab8b5eb.js": {
     "resourceType": "script",
     "module": true,
-    "file": "uiTheme.284c7ad5.js",
+    "file": "uiTheme.fab8b5eb.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.mjs"
     ]
@@ -182,11 +182,11 @@ export default {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "default.56eb7c6c.js",
+    "file": "default.e8070412.js",
     "imports": [
-      "_ThemeWrapper.ed4d17fd.js",
+      "_ThemeWrapper.35cddb74.js",
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_uiTheme.284c7ad5.js"
+      "_uiTheme.fab8b5eb.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/default.vue"
@@ -248,7 +248,7 @@ export default {
       "lang/en-US.json",
       "virtual:nuxt:/Users/strhom/Local Sites/brandtrak/packages/saas-theme/.nuxt/error-component.mjs"
     ],
-    "file": "entry.0dd1ca60.js",
+    "file": "entry.d71596fd.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.mjs"
   },
@@ -295,14 +295,14 @@ export default {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "blank-page.afaa4d2b.js",
+    "file": "blank-page.3152a848.js",
     "imports": [
-      "_Footer.1c0ad6c2.js",
-      "_Notification.7279e872.js",
-      "_Hidden.02cb09e8.js",
+      "_Footer.c8d1bc93.js",
+      "_Notification.d622cf4b.js",
+      "_Hidden.dc8df408.js",
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_saas-logo.9615be47.js",
-      "_uiTheme.284c7ad5.js"
+      "_saas-logo.468967af.js",
+      "_uiTheme.fab8b5eb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/blank-page.vue"
@@ -322,11 +322,11 @@ export default {
     "css": [
       "contact.a8430eb2.css"
     ],
-    "file": "contact.1d0ec061.js",
+    "file": "contact.c5efd01c.js",
     "imports": [
-      "_saas-logo.9615be47.js",
-      "_Hidden.02cb09e8.js",
-      "_deco-bg-right.6534d34b.js",
+      "_saas-logo.468967af.js",
+      "_Hidden.dc8df408.js",
+      "_deco-bg-right.351d60c0.js",
       "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "isDynamicEntry": true,
@@ -345,15 +345,15 @@ export default {
     "resourceType": "script",
     "module": true,
     "css": [],
-    "file": "index.01919f61.js",
+    "file": "index.ca4939af.js",
     "imports": [
-      "_uiTheme.284c7ad5.js",
-      "_Footer.1c0ad6c2.js",
-      "_Hidden.02cb09e8.js",
-      "_deco-bg-right.6534d34b.js",
+      "_uiTheme.fab8b5eb.js",
+      "_Footer.c8d1bc93.js",
+      "_Hidden.dc8df408.js",
+      "_deco-bg-right.351d60c0.js",
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_Notification.7279e872.js",
-      "_saas-logo.9615be47.js"
+      "_Notification.d622cf4b.js",
+      "_saas-logo.468967af.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"
@@ -373,12 +373,12 @@ export default {
     "css": [
       "login.0d481165.css"
     ],
-    "file": "login.2ae5070a.js",
+    "file": "login.b9f23103.js",
     "imports": [
-      "_Hidden.02cb09e8.js",
-      "_AuthFrame.32339c09.js",
+      "_Hidden.dc8df408.js",
+      "_AuthFrame.99148728.js",
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_deco-bg-right.6534d34b.js"
+      "_deco-bg-right.351d60c0.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/login.vue"
@@ -398,12 +398,12 @@ export default {
     "css": [
       "register.506966df.css"
     ],
-    "file": "register.5ec68031.js",
+    "file": "register.3d3978f3.js",
     "imports": [
-      "_Hidden.02cb09e8.js",
-      "_AuthFrame.32339c09.js",
+      "_Hidden.dc8df408.js",
+      "_AuthFrame.99148728.js",
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_deco-bg-right.6534d34b.js"
+      "_deco-bg-right.351d60c0.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/register.vue"
@@ -423,14 +423,14 @@ export default {
     "css": [
       "error-component.3416961d.css"
     ],
-    "file": "error-component.67fbfaec.js",
+    "file": "error-component.3a52c2ef.js",
     "imports": [
-      "_Hidden.02cb09e8.js",
-      "_ThemeWrapper.ed4d17fd.js",
-      "_Footer.1c0ad6c2.js",
+      "_Hidden.dc8df408.js",
+      "_ThemeWrapper.35cddb74.js",
+      "_Footer.c8d1bc93.js",
       "node_modules/nuxt/dist/app/entry.mjs",
-      "_uiTheme.284c7ad5.js",
-      "_saas-logo.9615be47.js"
+      "_uiTheme.fab8b5eb.js",
+      "_saas-logo.468967af.js"
     ],
     "isDynamicEntry": true,
     "src": "virtual:nuxt:/Users/strhom/Local Sites/brandtrak/packages/saas-theme/.nuxt/error-component.mjs"
