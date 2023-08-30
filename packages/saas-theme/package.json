@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "saas-theme",
   "version": "3.0.0",
   "description": "Veluxi VueJs SaaS Theme",
@@ -13,7 +14,6 @@
   "author": "Luxi Theme",
   "license": "Envato",
   "private": true,
-  "type": "module",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
