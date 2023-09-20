@@ -102,7 +102,7 @@ $flag: '/images/flag-logo.png';
       }
       img {
         height: 48px;
-        width: 48px;
+        width: 69px;
         margin-bottom: 0
       }
     }
@@ -176,15 +176,15 @@ $flag: '/images/flag-logo.png';
   }
   img {
     transition: all 0.3s ease-out;
-    max-width: 64px;
-    height: 64px;
-    width: 64px;
+    max-width: 130px;
+    //height: 64px;
+    //width: 64px;
     margin: 0 auto;
     display: block;
     margin-bottom: $spacing1;
     @include breakpoints-down(xs) {
       height: 48px;
-      width: 48px;
+      width: 69px;
     }
   }
 }

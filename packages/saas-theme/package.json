@@ -25,6 +25,7 @@
     "@splidejs/vue-splide": "^0.6.12",
     "rtl-sass": "^1.5.0",
     "vite-plugin-vuetify": "^1.0.2",
+    "volar-service-vetur": "^0.0.13",
     "vue-countup-v3": "^1.1.0",
     "vue-easy-lightbox": "^1.14.0",
     "vue-kinesis": "^2.0.5",

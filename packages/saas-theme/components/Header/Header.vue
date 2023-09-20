@@ -120,7 +120,7 @@
 
 <script>
 import { inject } from 'vue';
-import logo from '@/assets/images/saas-logo.svg';
+import logo from '@/assets/images/brandtrak-stack-white.png';
 import link from '@/assets/text/link';
 import brand from '@/assets/text/brand';
 import Hidden from '../Hidden';

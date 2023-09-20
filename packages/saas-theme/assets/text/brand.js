@@ -7,7 +7,7 @@ const brand = {
     logoText: 'Veluxi Software',
     projectName: 'Software',
     url: 'veluxi.ux-maestro.com/saas',
-    img: '/images/saas-logo.png',
+    img: '/images/brandtrak-blue.png',
     notifMsg:
       'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.',
   },
